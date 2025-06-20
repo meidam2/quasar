@@ -1,4 +1,4 @@
-import pluginImportX from "eslint-plugin-import-x"
+import { createNodeResolver } from "eslint-plugin-import-x"
 import neostandard from "neostandard"
 
 /** @type {import('eslint').Linter.Config[]} */
@@ -47,8 +47,10 @@ export default [
   {
     name: 'quasar/base/import',
 
-    plugins: {
-      'import-x': pluginImportX
+    settings: {
+      'import-x/resolver-next': [
+        createNodeResolver()
+      ]
     },
 
     rules: {
