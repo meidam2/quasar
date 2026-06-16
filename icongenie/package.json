@@ -55,7 +55,7 @@
     "imagemin": "^8.0.1",
     "imagemin-pngquant": "^9.0.2",
     "is-png": "^3.0.1",
-    "joi": "^17.13.0",
+    "joi": "^17.13.4",
     "kolorist": "^1.8.0",
     "minimist": "^1.2.8",
     "png2icons": "^2.0.1",
